@@ -53,13 +53,13 @@
 }
 .container-text {
   display: inline-block;
-  position: relative;
+  /* position: relative; */
   /* padding-bottom: 35%; */
   /* top: 70%; */
-  margin-top: 103%;
-  margin-left: 13%;
+  margin-top: 72vh;
+  /* margin-left: ; */
   max-width: 600px;
-  text-align: left;
+  text-align: center;
 }
 
 .main-text {
