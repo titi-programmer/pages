@@ -6,10 +6,10 @@ body {
   font-family: "Montserrat";
   overflow: hidden;
   background-color: #aae4ee;
+  pointer-events: auto;
+  height: -webkit-fill-available;
   /* background-image: url(https://www.shutterstock.com/shutterstock/photos/2128959116/display_1500/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg); */
 }
-
-
 
 pre {
   background-color: #3a3a3a;

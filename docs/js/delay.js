@@ -32,3 +32,12 @@ function round(value, decimals) {
 	return Number(Math.round(value + "e" + decimals) + "e-" + decimals);
 }
 
+function setVh() {
+	let vh = window.innerHeight * 0.01;
+	console.log(vh);
+	document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+  
+window.addEventListener('resize', setVh);
+window.addEventListener('orientationchange', setVh);
+setVh();
