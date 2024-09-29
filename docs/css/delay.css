@@ -46,16 +46,20 @@
 }
 
 .container {
-  position: relative;
+  position: absolute;
   /* padding-bottom: 35%; */
   top: -12%;
   max-width: 600px;
 }
 .container-text {
-  position: fixed;
+  display: inline-block;
+  position: relative;
   /* padding-bottom: 35%; */
-  /* top: -12%; */
+  /* top: 70%; */
+  margin-top: 103%;
+  margin-left: 13%;
   max-width: 600px;
+  text-align: left;
 }
 
 .main-text {
