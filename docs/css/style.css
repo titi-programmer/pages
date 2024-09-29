@@ -5,8 +5,11 @@ body {
   margin: 0;
   font-family: "Montserrat";
   overflow: hidden;
-  background-color: #2a2a2a;
+  background-color: #aae4ee;
+  /* background-image: url(https://www.shutterstock.com/shutterstock/photos/2128959116/display_1500/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg); */
 }
+
+
 
 pre {
   background-color: #3a3a3a;
@@ -30,7 +33,7 @@ section {
   color: #fff;
   position: relative;
 }
-#page-1 .text, #page-1-clone .text {
+/* #page-1 .text, #page-1-clone .text {
   background-color: #3F51B5;
 }
 #page-2 .text {
@@ -47,7 +50,7 @@ section {
 }
 #page-6 .text, #page-6-clone .text {
   background-color: #4CAF50;
-}
+} */
 
 .scroller {
   position: absolute;
@@ -137,11 +140,24 @@ section {
 .text {
   width: 100%;
   height: 100%;
+  padding-right: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
 }
+
+.textno {
+  width: 100%;
+  height: 100%;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
 
 nav {
   height: 100vh;
