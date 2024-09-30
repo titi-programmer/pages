@@ -162,6 +162,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-flow: column;
+  font-size: 20px !important;
 }
 
 .textno {
