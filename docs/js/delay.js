@@ -1,6 +1,6 @@
 const pageable = new Pageable("main", {
 	animation: 2,
-	delay: 600,
+	delay: 500,
 	onBeforeStart: function() {
 		this.pages.forEach((page, i) => {
 			page.classList.remove("pg-active");
@@ -27,7 +27,7 @@ const pageable = new Pageable("main", {
 function setVH() {
     document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
 }
+setVH();
 
 window.addEventListener('resize', setVH);
 window.addEventListener('orientationchange', setVh);
-setVH();

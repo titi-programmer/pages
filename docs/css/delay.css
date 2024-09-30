@@ -33,7 +33,7 @@
 
 span {
   font-family: 'pixelfont';
-  font-size: 1.2rem;
+  font-size: 1.2em;
   }
 
 @keyframes animateImg{
@@ -83,15 +83,14 @@ span {
   margin-top: calc(var(--vh, 1vh) * 90);
   /* margin-left: ; */
 }
-
+/* 
 @media (max-width: 768px) {
-  /* Adjust styles for mobile */
   .container-text {
     margin-top: calc(var(--vh, 1vh) * 70);
     max-width: 600px;
     text-align: center;
   }
-}
+} */
 
 .main-text {
   font-size: 4rem;
