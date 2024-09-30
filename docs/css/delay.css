@@ -1,3 +1,4 @@
+
 @font-face { 
   font-family: 'pixelfont';
   src: myFirstFont; src: url("slkscr.ttf");
@@ -6,9 +7,9 @@
   }
 
 .text {
-  -webkit-transform: scale(0.0, 0.0);
-          transform: scale(0.0, 0.0);
-  transition: all 800ms;
+  -webkit-transform: scale(0.1, 0.1);
+          transform: scale(0.1, 0.1);
+  transition: all 600ms;
 }
 .pg-active .text {
   -webkit-transform: scale(1, 1);
@@ -17,6 +18,16 @@
 .responsive-img {
   width: 100%;
   height: auto;
+}
+
+.text2 {
+  -webkit-transform: scale(1, 0);
+          transform: scale(0, 1);
+  transition: all 100ms;
+}
+.pg-active .text2 {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 
 
@@ -68,7 +79,7 @@ span {
   /* position: relative; */
   /* padding-bottom: 35%; */
   /* top: 70%; */
-  margin-top: 90vh;
+  margin-top: calc(var(--vh, 1vh) * 90);
   /* margin-left: ; */
   max-width: 600px;
   text-align: center;

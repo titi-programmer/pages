@@ -1,11 +1,18 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+:root {
+  --vh: 1vh;
+}
+
+
 body {
   margin: 0;
   font-family: "Montserrat";
   overflow: hidden;
-  background-color: #8fd7e6;
+  /* background-color: #8fd7e6; */
+  background-image: url('../img/bg.png');
   pointer-events: auto;
   height: -webkit-fill-available;
   /* background-image: url(https://www.shutterstock.com/shutterstock/photos/2128959116/display_1500/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg); */
