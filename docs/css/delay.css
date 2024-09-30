@@ -83,14 +83,12 @@ span {
   margin-top: calc(var(--vh, 1vh) * 90);
   /* margin-left: ; */
 }
-/* 
+
 @media (max-width: 768px) {
-  .container-text {
-    margin-top: calc(var(--vh, 1vh) * 70);
-    max-width: 600px;
-    text-align: center;
+  span {
+    font-size: 20px;
   }
-} */
+}
 
 .main-text {
   font-size: 4rem;
