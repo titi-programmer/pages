@@ -6,10 +6,7 @@ const pageable = new Pageable("main", {
 			page.classList.remove("pg-active");
 		});	
 	},
-	onFinish: function(data) {
-		// orientate horizontally when index is odd number
-		this.orientate(data.index % 2 == 0 ? "vertical" : "horizontal");
-	},
+    infinite: true,
 });
 
 // function setVh() {
